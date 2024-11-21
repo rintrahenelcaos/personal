@@ -6,7 +6,9 @@
 #navbar {
     overflow: hidden;
     background-color: #3E3E3E;
-    /*padding: 90px 10px;*/
+    height: 100vh;
+    padding-top: 40vh;
+    padding-bottom: 0vh; 
     transition: 0.4s;
     position: fixed;
     width: 100%;
@@ -29,16 +31,32 @@
   }
   
   #navbar #logo {
-    font-size: 35px;
+    font-size: 10vh;
     font-weight: bold;
-    transition: 0.4s;
-  }
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+  
   
   #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    color: dimgray;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+  
+  #navbar text:hover {
+    color: lightgrey;
+
   }
-.cont1 {
+
+  .cont1 {
     text-align: center;
     background-color: black;
     color: azure;
@@ -58,9 +76,16 @@
     background-color: #3E3E3E;
     text-align: center;
     height: 90vh;
-    padding-top: 45vh;
+    padding-top: 10vh;
     padding-bottom: 45vh;
+    color: dimgray;
 }
+
+.cont3 img {
+  width: 80%;
+  height: 60%;
+}
+
 
 .container-fluid {
     
