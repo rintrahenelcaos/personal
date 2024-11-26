@@ -18,8 +18,19 @@
     top: 0;
     z-index: 100;
     align-items: center;
+    background-image: "..\images\Linkedin-Backgrounds-28-1400-x-425.jpg";
 
 
+}
+
+#navbar-background{
+    height: 100vh;
+    padding-top: 40vh;
+    padding-bottom: 0vh; 
+    width: 100%;
+    max-height: 100vh;
+    top: 0;
+    z-index: 150;
 }
 #navbar a {
     float: left;
@@ -87,7 +98,7 @@
     
 }
 
-.cont-title h3 {
+h3 {
     font-size: 5vh;
 }
 
@@ -106,7 +117,7 @@
 }
 
 .subtitle {
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: left;
     margin-top: 3vh ;
     margin-bottom: 1vh;
@@ -146,6 +157,24 @@
     display: inline-flex;
 
 }
+
+.container-prop2 {
+    position: relative;
+    
+    height: 60vh;
+    width: 100%;
+    margin: 2vh;
+    display: inline-flex;
+
+}
+.imagecontainer {
+    
+    background: url('Linkedin-Backgrounds-28-1400-x-425.jpg');
+    width:500px;
+    height: 333px;
+}
+
+
 
 .project-details {
     width: 38%;

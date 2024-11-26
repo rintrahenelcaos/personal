@@ -80,6 +80,7 @@ function scrollFunction() {
     //document.getElementById("navbar").style.paddingBottom = "30em ";
     document.getElementById("navbar").style.height = "100vh";
     document.getElementById("navbar").style.backgroundColor ="transparent" 
+    //document.getElementById("navbar").style.background= "images/Linkedin-Backgrounds-28-1400-x-425.jpg"
     document.getElementById("logo").style.fontSize = "10vh";
     document.getElementById("logo").style.color = "black";
     document.getElementById("cont2").style.color = "#3E3E3E";
