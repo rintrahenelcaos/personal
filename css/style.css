@@ -18,7 +18,7 @@
     top: 0;
     z-index: 100;
     align-items: center;
-    background-image: "..\images\Linkedin-Backgrounds-28-1400-x-425.jpg";
+    
 
 
 }
@@ -31,6 +31,7 @@
     max-height: 100vh;
     top: 0;
     z-index: 150;
+    background-image: url(Linkedin-Backgrounds-28-1400-x-425.jpg);
 }
 #navbar a {
     float: left;
