@@ -4,51 +4,29 @@
     <title>Bootstrap Theme Simply Me</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/style.css">
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
 </head>
 <body>
-    <!--<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Me</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">WHO</a></li>
-              <li><a href="#">WHAT</a></li>
-              <li><a href="#">WHERE</a></li>
-            </ul>
-          </div>
-        </div>
-    </nav>
---><div id="navbar-background">
-        
-        <div id="navbar">
-        
-            <a href="#default" id="logo">My Name Here</a>
-            <div id="navbar-right">
-                <a class="active" href="#home">About me</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+   
+    <div id="navbar">
+        <div id="navbar-container">
+            <img src="images/Linkedin-Backgrounds-28-1400-x-425.jpg" alt="background" id="navbar-background">
+            <div id="navbar-content">
+                <a href="#default" id="logo">My Name Here</a>
+                <div id="navbar-right">
+                    <a id="navitem" href="#home"> About me</a>
+                    <a id="navitem"  href="#contact">Contact</a>
+                    <a id="navitem" href="#about">About</a>
+                </div>
             </div>
         </div>
     </div>
-      
-<!--
-    <div class="container-fluid cont1">
-        <h3>Who Am I?</h3>
-        <img src="images/bird150.jpg" style="display:inline" alt="Bird">
-        <h3>I'm an adventurer</h3>
-    </div>
-    -->
+   
     <div id="cont2" class="container-fluid cont2 ">
         <div class="cont-title">
             <h3 >About me</h3>
@@ -71,9 +49,9 @@
 
     </div>
     
-    <div class="container-fluid cont3 ">
+    <div id="cont3" class="container-fluid cont3 ">
         <h3>Projects</h3>
-        <div class="col">
+        <div id="cont3-content" class="col">
             <div class="row-sm-1 container-prop">
                 <div class="project-details">
                     <div class="subtitle">Scraper</div>
@@ -132,7 +110,18 @@
         </div>
     </div>
 
-    
+    <footer id="cont4" class="cont4 ">
+        <div class="footer-content">
+            <div class="footer-right">
+                <h3>Contact Me</h3>
+            </div>
+            <div class="footer-right">
+                <span>social links</span>
+            </div>
+           
+        </div>
+
+    </footer>
     
     <script src="script/scripts.js"></script>
     
