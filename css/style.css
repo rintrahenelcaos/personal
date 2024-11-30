@@ -1,5 +1,5 @@
 *{
-    background-color: #3E3E3E;
+    /*background-color: #3E3E3E;*/
     margin-left: 0vh;
 }
 
@@ -8,7 +8,7 @@
 #navbar {
     overflow: hidden;
     
-    background-color: transparent;
+    background-color: #3E3E3E;
     height: 100vh;
     padding-top: 0vh;
     padding-bottom: 0vh; 
@@ -33,15 +33,8 @@
     position: relative;
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
-    max-height: 100vh;
-    top: 0;
-    z-index: 150;
-    +++33333333333336background-image: url(Linkedin-Backgrounds-28-1400-x-425.jpg);
-=======
     background-color: transparent;
 
->>>>>>> 7f932e026ca4a7dd11f135edf203f8a52aace01e
 }
 
 #navbar-background{
@@ -55,27 +48,33 @@
 }
 
 #navbar-content {
+    padding-left: 10vh;
     
-    background-color: transparent;
     height: 100%; 
     width: 100%;
     display: flex;
-    
+    background-color: transparent;
     justify-content: left;   
     align-items: center;
     z-index: 150;
     position: absolute;
 }
 
-#navbar-right a{
-    display: none;
+#navbar-right {
+  
+}
+
+#navitem{
+    
     float: left;
-    color: black;
+    color: white;
+
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 2vh; 
     font-weight: bold;
+    background-color: transparent;
     
   }
 
@@ -190,12 +189,10 @@ h3 {
     padding-bottom: 5vh;
     color: lightgrey;
     opacity: 0;
-}
-
-#cont3-content {
-    visibility: visible;
     
 }
+
+
 
 .container-prop {
     position: relative;
@@ -248,13 +245,13 @@ h3 {
   
   .image-container {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: black;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
     transition: 0.8s ease-in-out;
     -webkit-transition: 0.8s ease-in-out;
     -moz-transition: 0.8s ease-in-out;
@@ -266,21 +263,22 @@ h3 {
     opacity: 0.3;
   }
   
-  .contains_image :hover .image-container {
+  .contains_image:hover .image-container {
     width: 100%;
     opacity: 0.8;
   }
   
   .flavour-text {
+    white-space: nowrap; 
     color: white;
     font-size: 20px;
     position: absolute;
+    overflow: hidden;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
   }
 
 #cont4 {
