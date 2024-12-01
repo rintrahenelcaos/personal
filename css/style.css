@@ -1,14 +1,20 @@
-*{
-    /*background-color: #3E3E3E;*/
-    margin-left: 0vh;
+* {
+    box-sizing: border-box;
 }
 
-
+body{
+    background-color: #000000;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    font-size: 100%;
+    
+}
 
 #navbar {
     overflow: hidden;
     
     background-color: #3E3E3E;
+    background-color: #000000;
     height: 100vh;
     padding-top: 0vh;
     padding-bottom: 0vh; 
@@ -23,8 +29,6 @@
     margin-top: 0vh;
     margin-left: 0vh;
     
-
-
 }
 
 #navbar-container {
@@ -43,7 +47,7 @@
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.5;
     position: absolute;
 }
 
@@ -72,7 +76,7 @@
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 2vh; 
+    font-size: 1.7rem; 
     font-weight: bold;
     background-color: transparent;
     
@@ -84,9 +88,9 @@
   
  #logo {
     background-color: transparent;
-  font-size: 10vh;
-  font-weight: bold;
-  color: black;
+    font-size: 6rem;
+    font-weight: bold;
+  color: lightgrey;
   text-decoration: none;
   transition: 2s;
   -webkit-transition: 2s;
@@ -120,29 +124,30 @@
 
 .container-fluid {
     color: black;
-    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #cont2 {
     
     padding-top: 30vh;
     padding-bottom: 0vh;
-    background-color: #3E3E3E;
+    background-color: #202020;
     text-align: center;
     color: transparent;
     margin-top: 10vh;
+    width: 100%;
+    
+    padding-right: 0vh;
     
 }
 
-.cont2 {
-    
-    
-
-    
-}
 
 h3 {
     font-size: 5vh;
+    color: #00FF77;
 }
 
 .cont-title p {
@@ -182,22 +187,33 @@ h3 {
 }
 
 #cont3 {
-    
+    background-color: #202020;
     text-align: center;
     height: max-content;
     padding-top: 2vh;
     padding-bottom: 5vh;
     color: lightgrey;
-    opacity: 0;
+    opacity: 1;
+    width: 100%;
+    overflow: hidden;
     
+}
+
+#title {
+    opacity: 0;
+}
+
+#cont3-content{
+    opacity: 0;
 }
 
 
 
 .container-prop {
     position: relative;
-    background-color: #3E3E3E;
-    height: 60vh;
+    background-color: #202020;
+    height: 40vh;
+    
     width: 100%;
     margin: 2vh;
     display: inline-flex;
@@ -290,16 +306,50 @@ h3 {
 .footer-content {
     width: 100%;
     background-color: black;
-    height: 50vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0;
     color: white;
-    align-items: center;
+    align-items:normal;
     margin-bottom: 0vh;
     padding: 0vh;
     
+}
+
+.footer-content div {
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left {
+    flex-direction: column;
+}
+
+.footer-left p{
+    padding: 0.2vh;
+    margin: 0.5vh;
+}
+
+.footer-center h3 {
+    font-size: 2vh;
+}
+
+.footer-right {
+    
+    flex-direction: column;
+    background-color: aqua;
+    
+    
+}
+
+.footer-right i {
+    padding: 0.2vh;
+    font-size: 2vh;
+    color: rgb(252, 0, 0);
 }
 
 

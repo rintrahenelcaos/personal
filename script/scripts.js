@@ -19,7 +19,7 @@ function scrollFunction() {
   { 
         
 
-        if ((document.body.scrollTop > 450) || (document.documentElement.scrollTop > 450))
+        if ((document.body.scrollTop > 420) || (document.documentElement.scrollTop > 420))
         {   
             //document.getElementById("cont3").style.color = "lightgray";
             //document.getElementById("cont3-content").style.visibility = "visible";
@@ -27,8 +27,10 @@ function scrollFunction() {
             //document.getElementById("cont3").style.transition = "2s";
             //document.getElementById("cont3-content").style.transition = "3s"
             //document.getElementByClassName("contains_image").style.transition = "3s";
-            document.getElementById("cont3").style.opacity = "1";
-            document.getElementById("cont3").style.visibility = "visible";
+            document.getElementById("cont3-content").style.opacity = "1";
+            document.getElementById("cont3-content").style.transition = "2s";
+            document.getElementById("title").style.opacity = "1";
+            document.getElementById("title").style.transition = "2s";
 
             document.getElementById("cont2").style.color = "transparent";
             document.getElementById("cont2").style.marginTop = "5vh";
@@ -39,6 +41,7 @@ function scrollFunction() {
             document.getElementById("navbar").style.height = "8vh";
             document.getElementById("navbar").style.transition = "1s";
             document.getElementById("navbar").style.color = "white";
+            document.getElementById("navbar").style.backgroundColor = "transparent"
 
             document.getElementById("navbar-background").style.opacity = "0";
             document.getElementById("navbar-background").style.transition = "1s";
@@ -49,7 +52,7 @@ function scrollFunction() {
             document.getElementById("navitem").style.display = "visible";
 
 
-            document.getElementById("logo").style.fontSize = "3vh";
+            document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("logo").style.color = "white";
             
             
@@ -59,9 +62,10 @@ function scrollFunction() {
             //document.getElementById("cont3").style.color = "transparent";
             //document.getElementById("cont3-content").style.visibility = "hidden";
             //document.getElementById("cont3-content").style.opacity = "0";
-            document.getElementById("cont3").style.transition = "2s";
-            document.getElementById("cont3").style.opacity = "0";
-            //document.getElementById("cont3").style.visibility = "visible";
+            document.getElementById("cont3-content").style.transition = "2s";
+            document.getElementById("cont3-content").style.opacity = "0";
+            document.getElementById("title").style.opacity = "0";
+            document.getElementById("title").style.transition = "2s";
 
 
             document.getElementById("cont2").style.color = "transparent";
@@ -71,6 +75,7 @@ function scrollFunction() {
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.5vh";
             document.getElementById("navbar").style.height = "8vh";
+            document.getElementById("navbar").style.backgroundColor = "transparent"
             
             
             document.getElementById("navbar").style.color = "white";
@@ -82,7 +87,7 @@ function scrollFunction() {
             document.getElementById("navbar-content").style.backgroundColor ="black";
             document.getElementById("navbar-content").style.transition = "2s";
 
-            document.getElementById("logo").style.fontSize = "3vh";
+            document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("logo").style.color = "white";
             document.getElementById("navbar").style.transition = "1s";
             document.getElementById("cont2").style.transition = "3s";
@@ -92,9 +97,10 @@ function scrollFunction() {
             //document.getElementById("cont3").style.color = "transparent";
             //document.getElementById("cont3-content").style.visibility = "hidden";
             //document.getElementById("cont3-content").style.opacity = "0";
-            document.getElementById("cont3").style.transition = "2s";
-            document.getElementById("cont3").style.opacity = "0";
-            //document.getElementById("cont3").style.visibility = "hidden";
+            document.getElementById("cont3-content").style.transition = "2s";
+            document.getElementById("cont3-content").style.opacity = "0";
+            document.getElementById("title").style.opacity = "0";
+            document.getElementById("title").style.transition = "2s";
 
             document.getElementById("cont2").style.color = "lightgrey";
             document.getElementById("cont2").style.marginTop = "5vh";
@@ -103,6 +109,7 @@ function scrollFunction() {
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.5vh";
             document.getElementById("navbar").style.height = "8vh";
+            document.getElementById("navbar").style.backgroundColor = "transparent"
             
             
             document.getElementById("navbar-background").style.opacity = "0";
@@ -115,7 +122,7 @@ function scrollFunction() {
 
 
             document.getElementById("logo").style.color = "white";
-            document.getElementById("logo").style.fontSize = "3vh";
+            document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("navbar").style.transition = "1s"; 
             document.getElementById("cont2").style.transition = "3s";
         }
@@ -127,22 +134,24 @@ function scrollFunction() {
     //document.getElementById("cont3").style.color = "transparent";
     //document.getElementById("cont3-content").style.visibility = "hidden";
     //document.getElementById("cont3-content").style.opacity = "0";
-    document.getElementById("cont3").style.transition = "2s";
-    document.getElementById("cont3").style.opacity = "0";
-    //document.getElementById("cont3").style.visibility = "hidden";
+    document.getElementById("cont3-content").style.transition = "2s";
+    document.getElementById("cont3-content").style.opacity = "0";
+    document.getElementById("title").style.opacity = "0";
+    document.getElementById("title").style.transition = "2s";
 
     document.getElementById("navbar").style.paddingTop = "0vh ";
     //document.getElementById("navbar").style.paddingBottom = "30em ";
     document.getElementById("navbar").style.height = "100vh";
+    document.getElementById("navbar").style.backgroundColor = "black"
 
     document.getElementById("navbar-content").style.backgroundColor ="transparent" ;
     document.getElementById("navbar-content").style.transition = "2s";
 
-    document.getElementById("navbar-background").style.opacity = "0.3";
+    document.getElementById("navbar-background").style.opacity = "0.5";
     document.getElementById("navbar-background").style.transition = "1s";
 
-    document.getElementById("logo").style.fontSize = "10vh";
-    document.getElementById("logo").style.color = "black";
+    document.getElementById("logo").style.fontSize = "6rem";
+    document.getElementById("logo").style.color = "lightgrey";
     document.getElementById("cont2").style.color = "transparent";
     document.getElementById("cont2").style.transition = "3s";
     document.getElementById("cont2").style.marginTop = "10vh"; 
