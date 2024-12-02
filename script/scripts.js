@@ -2,6 +2,11 @@
 window.onscroll = function() {scrollFunction()};
         
 function scrollFunction() {
+    var docheight;
+    var bodyheight;
+
+    var bodyheight = document.body.scrollHeight;
+    var docheight = document.documentElement.scrollHeight;
   //if ((document.body.scrollTop > 8 && document.body.scrollTop <= 16) || (document.documentElement.scrollTop > 8 && document.documentElement.scrollTop <= 16)) 
   //{
   //  document.getElementById("navbar").style.paddingTop = "0.5vh ";
@@ -15,11 +20,11 @@ function scrollFunction() {
   //  
   //} 
 
-  if ((document.body.scrollTop > 16) || (document.documentElement.scrollTop > 16)) 
+  if ((document.body.scrollTop > 0.035*bodyheight) || (document.documentElement.scrollTop > 0.035*docheight)) 
   { 
-        
+           
 
-        if ((document.body.scrollTop > 420) || (document.documentElement.scrollTop > 420))
+        if ((document.body.scrollTop > 0.2*bodyheight) || (document.documentElement.scrollTop > 0.2*docheight))
         {   
             //document.getElementById("cont3").style.color = "lightgray";
             //document.getElementById("cont3-content").style.visibility = "visible";
@@ -35,6 +40,8 @@ function scrollFunction() {
             document.getElementById("cont2").style.color = "transparent";
             document.getElementById("cont2").style.marginTop = "5vh";
             document.getElementById("cont2").style.transition = "3s";
+            document.getElementById("cont2").style.paddingTop = "30vh";
+            document.getElementById("about-me-h3").style.color = "transparent";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.5vh";
@@ -71,6 +78,8 @@ function scrollFunction() {
             document.getElementById("cont2").style.color = "transparent";
             document.getElementById("cont2").style.marginTop = "5vh";
             document.getElementById("cont2").style.transition = "3s";
+            document.getElementById("cont2").style.paddingTop = "30vh";
+            document.getElementById("about-me-h3").style.color = "transparent";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.5vh";
@@ -103,9 +112,11 @@ function scrollFunction() {
             document.getElementById("title").style.transition = "2s";
 
             document.getElementById("cont2").style.color = "lightgrey";
-            document.getElementById("cont2").style.marginTop = "5vh";
-            
+            document.getElementById("cont2").style.paddingTop = "30vh";
             document.getElementById("cont2").style.marginTop = "5vh"; 
+            document.getElementById("about-me-h3").style.color = "#00FF77";
+            
+
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.5vh";
             document.getElementById("navbar").style.height = "8vh";
@@ -154,7 +165,8 @@ function scrollFunction() {
     document.getElementById("logo").style.color = "lightgrey";
     document.getElementById("cont2").style.color = "transparent";
     document.getElementById("cont2").style.transition = "3s";
-    document.getElementById("cont2").style.marginTop = "10vh"; 
+    document.getElementById("cont2").style.marginTop = "5vh"; 
+    document.getElementById("cont2").style.paddingTop = "40vh";
   }
 }
 

@@ -124,34 +124,44 @@ body{
 
 .container-fluid {
     color: black;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    
+    
+    width: 100%;
 
 }
-
+.cont2 {
+    background-color: #202020;
+    height: 120vh;        
+}
 #cont2 {
-    
-    padding-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40vh;
     padding-bottom: 0vh;
     background-color: #202020;
     text-align: center;
     color: transparent;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 100%;
-    
+    max-width: 1200px;
     padding-right: 0vh;
+    
     
 }
 
 
 h3 {
-    font-size: 5vh;
+    font-size: 3rem;
     color: #00FF77;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
 }
 
 .cont-title p {
-    font-size: 3vh;
+    font-size: 2rem;
 }
 
 .cont2-info {
@@ -165,13 +175,13 @@ h3 {
 }
 
 .subtitle {
-    font-size: 3.5vh;
+    font-size: 2rem;
     text-align: left;
     margin-top: 3vh ;
     margin-bottom: 1vh;
 }
 .paragraph {
-    font-size: 3vh;
+    font-size: 1.5rem;
     text-align: left;
     padding-top: 2vh;
 }
@@ -185,17 +195,23 @@ h3 {
     -ms-transition: 2s;
     -o-transition: 2s;
 }
+.cont3 {
+    background-color: #2a2a2a;
+}
 
 #cont3 {
-    background-color: #202020;
+    background-color: #2a2a2a;
     text-align: center;
     height: max-content;
     padding-top: 2vh;
     padding-bottom: 5vh;
     color: lightgrey;
     opacity: 1;
-    width: 100%;
+    
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
     
 }
 
@@ -213,11 +229,17 @@ h3 {
     position: relative;
     background-color: #202020;
     height: 40vh;
-    
-    width: 100%;
-    margin: 2vh;
+    width: inherit;
+    margin: 2.5vh;
     display: inline-flex;
-
+    padding: 0.8vh;
+    border: 1vh,solid, #202020;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+    box-shadow: 0.2vh 0.2vh #0f0f0f;
 }
 
 .container-prop2 {
@@ -229,50 +251,53 @@ h3 {
     display: inline-flex;
 
 }
-.imagecontainer {
-    
-    background: url('Linkedin-Backgrounds-28-1400-x-425.jpg');
-    width:500px;
-    height: 333px;
-}
+
 
 
 
 .project-details {
     width: 38%;
     height: inherit;
+    padding: 2vh;
 }
 
 .contains_image {
+    background-color: #000000;
     position: relative;
-    width: 50%;
-    height: inherit;
-    
-    
-  }
+    width: 62%;
+    height: 100%;
+    border: 0.5vh, solid, #00FF77;
+    border-radius: 0.5vh;
+    -webkit-border-radius: 0.5vh;
+    -moz-border-radius: 0.5vh;
+    -ms-border-radius: 0.5vh;
+    -o-border-radius: 0.5vh;
+}
   
   .proj-image {
     display: block;
     width: 100%;
-    height: inherit;
+    height: 100%;
     object-fit: scale-down;
     
   }
   
+   
   .image-container {
     position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #000000;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-    transition: 0.8s ease-in-out;
-    -webkit-transition: 0.8s ease-in-out;
-    -moz-transition: 0.8s ease-in-out;
-    -ms-transition: 0.8s ease-in-out;
-    -o-transition: 0.8s ease-in-out;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    opacity: 0;
 }
 
   .contains_image :hover .proj-image {
@@ -282,19 +307,28 @@ h3 {
   .contains_image:hover .image-container {
     width: 100%;
     opacity: 0.8;
+    
   }
   
   .flavour-text {
-    white-space: nowrap; 
+    display: block;
+    white-space: pre-wrap;
     color: white;
-    font-size: 20px;
+    font-size: 1.5rem;
     position: absolute;
-    overflow: hidden;
+    height: 100%;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
+    text-align: justify;
+    word-wrap: break-word;
+  }
+  
+  .flavour-text p {
+    margin-top: 0;
   }
 
 #cont4 {
@@ -335,7 +369,7 @@ h3 {
 }
 
 .footer-center h3 {
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 .footer-right {
@@ -348,7 +382,7 @@ h3 {
 
 .footer-right i {
     padding: 0.2vh;
-    font-size: 2vh;
+    font-size: 1rem;
     color: rgb(252, 0, 0);
 }
 
