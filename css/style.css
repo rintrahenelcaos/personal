@@ -306,7 +306,7 @@ h3 {
     display: block;
     white-space: pre-wrap;
     color: white;
-    font-size: 1.5rem;
+    
     position: absolute;
     height: 100%;
     width: 80%;
@@ -315,12 +315,14 @@ h3 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
+    align-content: center;
     text-align: justify;
     word-wrap: break-word;
   }
   
   .flavour-text p {
     margin-top: 0;
+    font-size: 1.2rem;
   }
 
 #cont4 {
@@ -351,11 +353,20 @@ h3 {
 }
 
 .footer-content div {
-    width: 25%;
+    width: 30%;
     display:flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     
+}
+
+.footer-content i {
+    color: lightgray;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
 }
 
 .footer-content p {
@@ -370,8 +381,9 @@ h3 {
     margin: 0.5vh;
 }
 
-.footer-center h3 {
-    font-size: 1rem;
+.footer-center  {
+   flex-direction: column;
+   
 }
 
 .footer-right {
@@ -382,7 +394,7 @@ h3 {
 
 .footer-right i {
     padding: 0.2vh;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: lightgray;
 }
 
