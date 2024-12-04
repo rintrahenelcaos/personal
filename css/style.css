@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-size: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -77,42 +78,52 @@ body{
 #intermediate_navbar {
   display: flex;
   flex-direction: column;
+  
+  justify-content: center;
   width: 40%;
+  padding-bottom: 0rem;
+  
 }
 
 #introduction {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
-
-}
-
-#navbar-right {
   
+  transition: 2s ease-in-out;
+  -webkit-transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -ms-transition: 2s ease-in-out;
+  -o-transition: 2s ease-in-out;
 }
+
+
 
 #navitem{
     
-    float: left;
+    
     color: white;
 
     text-align: center;
     padding-top: 12px;
     padding-left: 5rem;
     text-decoration:underline #00FF77;
-    font-size: 1.7rem; 
+    font-size: 1.5rem; 
     font-weight: bold;
     background-color: transparent;
     
   }
-
+#navbar-right {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
   
  #logo {
     background-color: transparent;
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: bold;
   color: lightgrey;
   text-decoration: none;
@@ -144,12 +155,7 @@ body{
 }
 
 
-.cont1 {
-    text-align: center;
-    background-color: black;
-    color: azure;
-  
-}
+
 
 .container-fluid {
     color: black;
@@ -160,27 +166,31 @@ body{
 }
 .cont2 {
     background-color: #202020;
-    height: 67rem;        
+    height: 65rem;
+    min-height: fit-content;
+
+    padding-bottom: 6rem;        
 }
 #cont2 {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20rem;
+    padding-top: 25rem;
     padding-bottom: 0vh;
     background-color: #202020;
     text-align: center;
     color: transparent;
-    margin-top: 2.5rem;
+    margin-top: 6rem;
     width: 100%;
     max-width: 1200px;
     padding-right: 0rem;
+    
     
     
 }
 
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #00FF77;
     transition: 2s;
     -webkit-transition: 2s;
@@ -190,27 +200,33 @@ h3 {
 }
 
 .cont-title p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .cont2-info {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 .infogroup {
-    padding-inline: 3rem;
-    width: 50%;
+    
+    width: 45%;
+
 }
 
 .subtitle {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: left;
     margin-top: 1.5rem ;
     margin-bottom: 0.5rem;
 }
 .paragraph {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-align: left;
     padding-top: 1rem;
 }
@@ -349,7 +365,7 @@ h3 {
   
   .flavour-text p {
     margin-top: 0;
-    font-size: 1.45rem;
+    font-size: 1rem;
   }
 
 #cont4 {
@@ -390,14 +406,14 @@ h3 {
 
 .footer-content i {
     color: lightgray;
-    font-size: 2rem;
+    font-size: 0.8rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 
 }
 
 .footer-content p {
-  font-size: 1.5rem;
+  font-size: .8rem;
 }
 .footer-left {
     flex-direction: column;

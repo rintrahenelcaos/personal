@@ -38,9 +38,9 @@ function scrollFunction() {
             document.getElementById("title").style.transition = "2s";
 
             document.getElementById("cont2").style.color = "transparent";
-            document.getElementById("cont2").style.marginTop = "2.5rem";
+            document.getElementById("cont2").style.marginTop = "4rem";
             document.getElementById("cont2").style.transition = "3s";
-            document.getElementById("cont2").style.paddingTop = "15rem";
+            document.getElementById("cont2").style.paddingTop = "20rem";
             document.getElementById("about-me-h3").style.color = "transparent";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
@@ -60,7 +60,8 @@ function scrollFunction() {
 
             document.getElementById("navbar-right").style.float = "right";
 
-            document.getElementById("navitem").style.display = "visible";
+            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            document.getElementById("introduction").style.color = "transparent";
 
 
             document.getElementById("logo").style.fontSize = "2rem";
@@ -80,9 +81,9 @@ function scrollFunction() {
 
 
             document.getElementById("cont2").style.color = "transparent";
-            document.getElementById("cont2").style.marginTop = "2.5rem";
+            document.getElementById("cont2").style.marginTop = "4rem";
             document.getElementById("cont2").style.transition = "3s";
-            document.getElementById("cont2").style.paddingTop = "15rem";
+            document.getElementById("cont2").style.paddingTop = "20rem";
             document.getElementById("about-me-h3").style.color = "transparent";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
@@ -102,7 +103,9 @@ function scrollFunction() {
 
             document.getElementById("dummy-navbar-separator").style.width = "9rem";
 
-            document.getElementById("navbar-right").style.float = "right";
+            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            document.getElementById("introduction").style.color = "transparent";
+
 
             document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("logo").style.color = "white";
@@ -120,8 +123,8 @@ function scrollFunction() {
             document.getElementById("title").style.transition = "2s";
 
             document.getElementById("cont2").style.color = "lightgrey";
-            document.getElementById("cont2").style.paddingTop = "15rem";
-            document.getElementById("cont2").style.marginTop = "2.5rem"; 
+            document.getElementById("cont2").style.paddingTop = "20rem";
+            document.getElementById("cont2").style.marginTop = "4rem"; 
             document.getElementById("about-me-h3").style.color = "#00FF77";
             
 
@@ -139,7 +142,9 @@ function scrollFunction() {
 
             document.getElementById("dummy-navbar-separator").style.width = "9rem";
 
-            document.getElementById("navbar-right").style.float = "right";
+            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            document.getElementById("introduction").style.color = "transparent";
+
 
             document.getElementById("navitem").style.display = "visible";
 
@@ -176,15 +181,16 @@ function scrollFunction() {
     document.getElementById("dummy-navbar-separator").style.width = "2rem";
     
 
-    document.getElementById("navbar-right").style.float = "left";
+    document.getElementById("intermediate_navbar").style.paddingBottom = "0rem";
+    document.getElementById("introduction").style.color = "white";
 
 
-    document.getElementById("logo").style.fontSize = "5rem";
+    document.getElementById("logo").style.fontSize = "3.5rem";
     document.getElementById("logo").style.color = "lightgrey";
     document.getElementById("cont2").style.color = "transparent";
     document.getElementById("cont2").style.transition = "3s";
-    document.getElementById("cont2").style.marginTop = "2.5rem"; 
-    document.getElementById("cont2").style.paddingTop = "20rem";
+    document.getElementById("cont2").style.marginTop = "6rem"; 
+    document.getElementById("cont2").style.paddingTop = "25rem";
   }
 }
 
