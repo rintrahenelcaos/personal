@@ -60,7 +60,7 @@ body{
     width: 100%;
     display: flex;
     background-color: transparent;
-    justify-content: left;   
+    justify-content: space-around;   
     align-items: center;
     z-index: 150;
     position: absolute;
@@ -169,7 +169,7 @@ body{
     
     min-height: fit-content;
     
-    padding-bottom: 6rem;        
+    padding-bottom: 10rem;        
 }
 #cont2 {
     margin-left: auto;
