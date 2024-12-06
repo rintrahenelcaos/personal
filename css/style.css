@@ -189,6 +189,7 @@ body{
 }
 
 
+
 h3 {
     font-size: 2rem;
     color: #00FF77;
@@ -213,6 +214,40 @@ h3 {
     
 }
 
+#toolkit {
+
+}
+
+.capsule {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-width: 0.05rem;
+    border-radius: 0.05rem;
+    -webkit-border-radius: 0.05rem;
+    -moz-border-radius: 0.05rem;
+    -ms-border-radius: 0.05rem;
+    -o-border-radius: 0.05rem;
+    min-width: 6rem;
+}
+
+.toolkit-central {
+    min-width: 9rem;
+}
+
+.tollikit-block {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: initial;
+}
+
+.toolkit-subgroup {
+    display: flex;
+    flex-direction: row ;
+}
+
 .infogroup {
     
     width: 45%;
@@ -230,6 +265,9 @@ h3 {
     text-align: left;
     padding-top: 1rem;
 }
+
+.capsule {}
+    
 
 
 
