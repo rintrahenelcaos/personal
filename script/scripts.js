@@ -42,10 +42,11 @@ function scrollFunction() {
             document.getElementById("cont2").style.transition = "3s";
             document.getElementById("cont2").style.paddingTop = "20rem";
             document.getElementById("about-me-h3").style.color = "transparent";
+            document.getElementById("toolkit").style.opacity = "0";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.25rem";
-            document.getElementById("navbar").style.height = "8vh";
+            document.getElementById("navbar").style.height = "5rem";
             document.getElementById("navbar").style.transition = "1s";
             document.getElementById("navbar").style.color = "white";
             document.getElementById("navbar").style.backgroundColor = "transparent"
@@ -85,10 +86,11 @@ function scrollFunction() {
             document.getElementById("cont2").style.transition = "3s";
             document.getElementById("cont2").style.paddingTop = "20rem";
             document.getElementById("about-me-h3").style.color = "transparent";
+            document.getElementById("toolkit").style.opacity = "0";
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.25rem";
-            document.getElementById("navbar").style.height = "8vh";
+            document.getElementById("navbar").style.height = "5rem";
             document.getElementById("navbar").style.backgroundColor = "transparent"
             
             
@@ -126,11 +128,12 @@ function scrollFunction() {
             document.getElementById("cont2").style.paddingTop = "20rem";
             document.getElementById("cont2").style.marginTop = "4rem"; 
             document.getElementById("about-me-h3").style.color = "#00FF77";
+            document.getElementById("toolkit").style.opacity = "1";
             
 
             document.getElementById("navbar").style.paddingTop = "0vh ";
             document.getElementById("navbar").style.paddingBottom = "0.25rem";
-            document.getElementById("navbar").style.height = "8vh";
+            document.getElementById("navbar").style.height = "5rem";
             document.getElementById("navbar").style.backgroundColor = "transparent";
             
             
@@ -191,6 +194,7 @@ function scrollFunction() {
     document.getElementById("cont2").style.transition = "3s";
     document.getElementById("cont2").style.marginTop = "6rem"; 
     document.getElementById("cont2").style.paddingTop = "25rem";
+    document.getElementById("toolkit").style.opacity = "0";
   }
 }
 
