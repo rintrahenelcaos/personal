@@ -523,11 +523,20 @@ h3 {
 @media (max-width: 991px) 
 {
   * {
-    font-size: 12px;
+    font-size: 80%;
   }
   #navbar-content {
-    font-size: 85%;
+    
 }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  (max-width: 768px) {
+  * {
+    font-size: 70%;
+  }
+
+  #navbar-content 
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
@@ -535,8 +544,7 @@ h3 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 
