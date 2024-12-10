@@ -218,6 +218,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 1rem;
+    padding-right: 1rem;
     
 }
 
@@ -356,6 +357,7 @@ h3 {
   color: #202020;
   text-decoration: none;
   font-weight: bold;
+  display: inline;
   border: 0.5rem, solid,#00FF77;
   border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
@@ -366,6 +368,11 @@ h3 {
 
 .to-git-button i {
   font-size: 1.4rem;
+ 
+}
+
+.to-git-button p {
+   
 }
 
 .project-details {
@@ -539,8 +546,10 @@ h3 {
 /* Medium devices (landscape tablets, 768px and up) */
 @media  (max-width: 768px) {
   * {
-    font-size: 70%;
+    font-size: 80%;
   }
+  
+  #navbar-content {}
 
   #cont2-info {
     flex-direction: column;
@@ -550,10 +559,43 @@ h3 {
     width: 100%;
   }
 
-  #navbar-content {}
+  .capsule {
+    font-size: 1rem;
+  }
+
+  
 }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 80%;
+    }
+
+    .container-prop {
+        display: block;
+        height: fit-content;
+    }
+
+    .project-details {
+        width: 100%;
+    }
+
+    .contains_image {
+        width: 100%;
+        
+    }
+
+    .proj-image {
+        height: 20rem;
+    }
+
+    
+
+
+
+
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
