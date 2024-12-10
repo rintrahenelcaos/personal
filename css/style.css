@@ -433,6 +433,10 @@ h3 {
     
   }
   
+  .text-for-small-media {
+    display: none;
+  }
+
   .flavour-text {
     display: block;
     white-space: pre-wrap;
@@ -455,6 +459,8 @@ h3 {
     margin-top: 0;
     font-size: 1.1rem;
   }
+
+
 
 #cont4 {
   max-width: 1200px;
@@ -564,15 +570,18 @@ h3 {
   }
 
   
+
+  
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     * {
         font-size: 80%;
     }
-
+    
     .container-prop {
-        display: block;
+        display: flex;
+        flex-direction: column;
         height: fit-content;
     }
 
@@ -587,6 +596,16 @@ h3 {
 
     .proj-image {
         height: 20rem;
+    }
+
+    .image-container {
+      display: none;
+    }
+  
+    .text-for-small-media {
+      display: initial;
+      text-align: initial;
+      width: 100%;
     }
 
     
