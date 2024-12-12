@@ -582,7 +582,7 @@ h3 {
     .container-prop {
         display: flex;
         flex-direction: column;
-        height: fit-content;
+        height: max-content;
     }
 
     .project-details {
@@ -598,16 +598,44 @@ h3 {
         height: 20rem;
     }
 
+    .contains_image {
+        position:relative;
+    }
+
+    .proj-image {
+        
+    }
     .image-container {
       display: none;
     }
   
     .text-for-small-media {
-      display: initial;
-      text-align: initial;
-      width: 100%;
+      margin-left: auto;
+      margin-right: auto;  
+      display:flex;
+      width: 92%;
+      height: 9rem;
+      align-items: center;
+      justify-content: center;
+      
+
+      
+      
+      
     }
 
+    .text-for-small-media p {
+        font-size: 1.2rem;
+        text-align: justify;
+        
+        
+        
+        
+
+        
+        
+        
+    }
     
 
 
