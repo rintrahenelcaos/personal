@@ -1,5 +1,30 @@
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
+
+
+//window.onscroll = function() {scrollFunction()};
+
+// Create a MediaQueryList object
+const mmObj = window.matchMedia("(max-width: 600px)")
+
+// Call the match function at run time
+mediaQuerysFunction(mmObj);
+
+// Add the match function as a listener for state changes
+mmObj.addEventListener("change", function() {
+  mediaQuerysFunction(mmObj);
+});
+
+
+
+function mediaQuerysFunction(){
+  if (x.matches) {
+    window.onscroll = function() {scrollFunction()};
+  } else {
+    window.onscroll = function() {dummyScrollFunction()}
+  }
+}
+
+function dummyScrollFunction(){}
         
 function scrollFunction() {
     var docheight;

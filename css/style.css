@@ -579,6 +579,34 @@ h3 {
         font-size: 80%;
     }
     
+    #navbar {
+        padding-top: 0rem;
+        
+        height: 6rem;
+        background-color: transparent;
+        color: white;
+    }
+
+    #navbar-background {
+        opacity: 0;
+
+    }
+
+    #navbar-content {
+        background-color: #000000;
+    }
+
+    #dummy-navbar-separator {}
+
+    #intermediate_navbar {
+        padding-bottom: 7rem;
+    }
+
+    #logo {
+        font-size: 2rem;
+        color: white;
+    }
+
     .container-prop {
         display: flex;
         flex-direction: column;
