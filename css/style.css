@@ -127,7 +127,7 @@ body{
 
 
   
- #logo {
+#logo {
     background-color: transparent;
     font-size: 3.5rem;
     font-weight: bold;
@@ -158,6 +158,21 @@ body{
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
+}
+
+#links-in-nav {
+    padding-top: 1rem ;
+    display: flex;
+    justify-content: center;
+        
+    
+}
+
+#links-in-nav i {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: lightgray;
 }
 
 
@@ -542,11 +557,19 @@ h3 {
 @media (max-width: 991px) 
 {
   * {
-    font-size: 80%;
+    font-size: 90%;
   }
   #navbar-content {
     
 }
+.capsule {
+    font-size: 1rem;
+  }
+
+  .to-git-button {
+    font-size: 0.9rem;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -568,8 +591,6 @@ h3 {
   .capsule {
     font-size: 1rem;
   }
-
-  
 
   
 }
@@ -594,17 +615,56 @@ h3 {
 
     #navbar-content {
         background-color: #000000;
+        padding-left: .5rem;
+        justify-content: space-between;
     }
 
-    #dummy-navbar-separator {}
+    #dummy-navbar-separator {
+        width: 0rem;
+    }
 
     #intermediate_navbar {
-        padding-bottom: 7rem;
+        
+    }
+
+    #introduction {
+        display: none;
     }
 
     #logo {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
+        width: 40%;
+        
+        
+    }
+
+    #navitem {
+        font-size: 1.0rem;
+    }
+
+
+    #cont2 {
+        color: lightgray;
+        padding-top: 20rem;
+        margin-top: 4rem;
+    }
+
+    #about-me-h3 {
+        color: #00FF77;
+    }
+
+    #toolkit {
+        opacity: 1;
+    }
+
+    #cont3-content{
+        opacity: 1;
+
+    }
+
+    #title {
+        opacity: 1;
     }
 
     .container-prop {
@@ -633,6 +693,11 @@ h3 {
     .proj-image {
         
     }
+
+    .to-git-button {
+        font-size: 0.9rem;
+    }
+
     .image-container {
       display: none;
     }
@@ -655,14 +720,7 @@ h3 {
     .text-for-small-media p {
         font-size: 1.2rem;
         text-align: justify;
-        
-        
-        
-        
-
-        
-        
-        
+                
     }
     
 
