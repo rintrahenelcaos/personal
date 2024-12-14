@@ -60,7 +60,7 @@ body{
     width: 100%;
     display: flex;
     background-color: transparent;
-    justify-content: space-around;   
+    justify-content: space-between;   
     align-items: center;
     z-index: 150;
     position: absolute;
@@ -78,13 +78,16 @@ body{
 #intermediate_navbar {
   display: flex;
   flex-direction: column;
-  
-  justify-content: center;
+  justify-content: baseline;
   width: 40%;
   padding-bottom: 0rem;
   overflow: hidden;
   padding-right: 1rem;
-  
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 #introduction {
@@ -97,6 +100,8 @@ body{
   -moz-transition: 2s ease-in-out;
   -ms-transition: 2s ease-in-out;
   -o-transition: 2s ease-in-out;
+  height: fit-content;
+  
 }
 
 
@@ -152,12 +157,21 @@ body{
 }
   
 #navbar-right {
-    float: left;
+    
     transition: 2s;
     -webkit-transition: 2s;
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
+    align-items: baseline;
+}
+
+#navbar-right i {
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: lightgray;
 }
 
 #links-in-nav {
