@@ -114,7 +114,7 @@ body{
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
-    align-items: baseline;
+    align-items: center;
 }
 
 #navitem{
@@ -126,7 +126,7 @@ body{
     font-weight: bold;
     background-color: transparent;
     width: fit-content;
-    white-space: nowrap;
+    
 
     
     
@@ -147,6 +147,7 @@ body{
     -moz-transition: 2s;
     -ms-transition: 2s;
     -o-transition: 2s;
+    max-width: 55%;
 }
 
   
@@ -163,8 +164,8 @@ body{
 
 #navbar-right i {
     
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     /*font-size: 1.5rem;*/
     color: lightgray;
 }
@@ -179,7 +180,7 @@ body{
 }
 
 #links-in-nav {
-    padding-top: 1rem ;
+    
     display: flex;
     justify-content: center;
         
@@ -187,11 +188,12 @@ body{
 }
 
 #links-in-nav i {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /*font-size: 1.5rem;*/
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
     color: lightgray;
 }
+
+
 
 
 
@@ -653,6 +655,10 @@ h3 {
     
 }
 
+#nav-right {
+    
+}
+
 #navitem {
     font-size: 1.3rem;
 }
@@ -660,6 +666,12 @@ h3 {
 #navbar-right i {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+}
+
+#links-in-nav {
+    flex-direction: column;
+    padding-top: 0rem;
+    align-items: center;
 }
 
 #cont2 {
