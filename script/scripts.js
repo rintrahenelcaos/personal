@@ -30,7 +30,7 @@ window.onscroll = function() {mediachanger()};
 function mediachanger(){
     var w = parseInt(window.innerWidth);
 
-    if (w <= 600) {
+    if (w <= 768) {
       dummyScrollFunction();
     }
     else {
@@ -86,17 +86,20 @@ function scrollFunction() {
             document.getElementById("navbar-content").style.transition = "2s";
 
             document.getElementById("navbar-right").style.float = "right";
+            document.getElementById("navbar-right").style.paddingBottom = "7rem";
 
-            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
             //document.getElementById("intermediate_navbar").style.flexDirection = "row";
-            document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
 
             document.getElementById("introduction").style.color = "transparent";
-            document.getElementById("introduction").style.height = "0rem";
+            //document.getElementById("introduction").style.height = "0rem";
 
 
             document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("logo").style.color = "white";
+
+            document.getElementById("navbar-right").style.fontSize = "1.1rem";
             
             
           }
@@ -129,17 +132,22 @@ function scrollFunction() {
 
             document.getElementById("navbar-content").style.backgroundColor ="black";
             document.getElementById("navbar-content").style.transition = "2s";
+
+            document.getElementById("navbar-right").style.paddingBottom = "7rem";
             
-            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
             //document.getElementById("intermediate_navbar").style.flexDirection = "row";
-            document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
 
             document.getElementById("introduction").style.color = "transparent";
-            document.getElementById("introduction").style.height = "0rem";
+            //document.getElementById("introduction").style.height = "0rem";
 
 
             document.getElementById("logo").style.fontSize = "2rem";
             document.getElementById("logo").style.color = "white";
+
+            document.getElementById("navbar-right").style.fontSize = "1.1rem";
+
             document.getElementById("navbar").style.transition = "1s";
             document.getElementById("cont2").style.transition = "3s";
           }
@@ -172,12 +180,14 @@ function scrollFunction() {
             document.getElementById("navbar-content").style.backgroundColor ="black";
             document.getElementById("navbar-content").style.transition = "2s";
 
-            document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
+            document.getElementById("navbar-right").style.paddingBottom = "7rem";
+
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "7rem";
             //document.getElementById("intermediate_navbar").style.flexDirection = "row";
-            document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
+            //document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
 
             document.getElementById("introduction").style.color = "transparent";
-            document.getElementById("introduction").style.height = "0rem";
+            //document.getElementById("introduction").style.height = "0rem";
 
 
             document.getElementById("navitem").style.display = "visible";
@@ -185,6 +195,9 @@ function scrollFunction() {
 
             document.getElementById("logo").style.color = "white";
             document.getElementById("logo").style.fontSize = "2rem";
+
+            document.getElementById("navbar-right").style.fontSize = "1.1rem";
+
             document.getElementById("navbar").style.transition = "1s"; 
             document.getElementById("cont2").style.transition = "3s";
         }
@@ -212,15 +225,20 @@ function scrollFunction() {
     document.getElementById("navbar-background").style.opacity = "0.5";
     document.getElementById("navbar-background").style.transition = "1s";
 
-    document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
+    document.getElementById("navbar-right").style.paddingBottom = "0rem";
+
+    //document.getElementById("intermediate_navbar").style.paddingBottom = "2rem";
     //document.getElementById("intermediate_navbar").style.flexDirection = "column";
 
     document.getElementById("introduction").style.color = "lightgrey";
-    document.getElementById("introduction").style.height = "fit-content";
+    //document.getElementById("introduction").style.height = "fit-content";
 
 
     document.getElementById("logo").style.fontSize = "3.5rem";
     document.getElementById("logo").style.color = "lightgrey";
+
+    document.getElementById("navbar-right").style.fontSize = "1.3rem";
+
     document.getElementById("cont2").style.color = "transparent";
     document.getElementById("cont2").style.transition = "3s";
     document.getElementById("cont2").style.marginTop = "6rem"; 
